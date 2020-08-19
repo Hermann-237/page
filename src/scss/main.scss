@@ -1,0 +1,74 @@
+// This is where you can import other stylesheets or write your scss code
+$secondary:#816cfa;
+$light: black;
+$info:white;
+$font-family-sans-serif-title:'Special Elite', cursive;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+
+.container-fluid{
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 90vh;
+}
+.hero{
+    padding-top: 150px;
+}
+
+
+.card-centrer{
+    margin: 25px 10px!important;
+    height: 50%;
+    
+} 
+ .one{
+  width: 95%!important
+ }
+.input-set{
+    
+}
+
+.learn-section{
+    background-color: $secondary;
+    width: 100%;
+   
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+footer{
+    padding: 50px 20px;
+    background-color: $light;
+    
+}
+footer p{
+    float: right;
+}
+.contain{
+    width: 100%;
+}
+
+h1,h2,h4{
+    font-family: $font-family-sans-serif-title;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+
+
+
+
+.rounded-circle{
+    width: 90px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
